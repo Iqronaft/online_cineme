@@ -1,0 +1,259 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #9d1010;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #ffffff;
+  border-radius: 0;
+  border: 0;
+}
+
+#logo-img {
+  background: url('../img/logo.png') no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: 10px 15px 10px 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 {
+  /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #9e2020;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-brand p {
+  /* Kosher cert */
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+
+.navbar-brand p span {
+  /* Star-K */
+  vertical-align: middle;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+
+#nav-list a {
+  color: #000000;
+  text-align: center;
+}
+
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #9e2020;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+/* END HEADER */
+
+/** MAIN **/
+
+table {
+  max-width: 70%;
+  border: medium solid white;
+  border-collapse: separate;
+  border-radius: 30px;
+  margin: 5% auto 1% auto;
+  overflow: hidden;
+}
+
+table td {
+  text-align: center;
+  padding: 5%;
+}
+
+.film-category {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 5% 0;
+}
+
+#johnwick-tile, #airplane-tile, #quantumania-tile, #oldway-tile, #breakingbad-tile, #truedetective-tile {
+  height: 477px;
+  width: 63%;
+  margin: 15px auto;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+}
+
+#johnwick-tile:hover, #airplane-tile:hover, #quantumania-tile:hover, #oldway-tile:hover, #breakingbad-tile:hover, #truedetective-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#johnwick-tile {
+  background: url('../img/johnwick.jpg') no-repeat;
+  background-position: center;
+}
+
+#airplane-tile {
+  background: url('../img/airplane.jpg') no-repeat;
+  background-position: center;
+}
+
+#quantumania-tile {
+  background: url('../img/quntamaina.jpg') no-repeat;
+  background-position: center;
+}
+
+#oldway-tile {
+  background: url('../img/oldway.jpg') no-repeat;
+  background-position: center;
+}
+
+#breakingbad-tile {
+  background: url('../img/breakingbad.jpeg') no-repeat;
+  background-position: center;
+}
+
+#truedetective-tile {
+  background: url('../img/truedetective.jpg') no-repeat;
+  background-position: center;
+}
+
+#johnwick-tile span, #airplane-tile span, #quantumania-tile span, #oldway-tile span, #breakingbad-tile span, #truedetective-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+
+/* END MAIN */
+
+/** FOOTER **/
+
+.panel-footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #000000;
+  border-top: 0;
+}
+
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+
+#hours, #address {
+  line-height: 2;
+}
+
+#hours>span, #address>span {
+  font-size: 1.3em;
+}
+
+
+#testimonials {
+  font-style: italic;
+}
+
+#testimonials p:nth-child(2) {
+  margin-top: 25px;
+}
+
+button {
+  background-color: #9e2020;
+  text-align: center;
+  padding: 14px 40px;
+  border-radius: 50px;
+  border: 1px solid #000000;
+  margin: 5% 0;
+}
+
+/* END FOOTER */
+
+.black-colored {
+  color: #000;
+  font-weight: bold;
+}
+
+.change-height {
+  height: 320px;
+}
+
+.positioned {
+  bottom: -51px;
+  right: 10px;
+  border-radius: 20px;
+  background-color: #000000;
+}
+
+#film-title {
+  font-weight: bold;
+  color: #000;
+}
+
+#cast, #director, #durability, #year {
+  padding-left: 1%;
+  font-weight: bold;
+}
+
+#cast-header, #director-header, #durability-header, #year-header {
+  color: #000;
+  font-weight: bold;
+}
+
+#description-header {
+  color: #000;
+  font-weight: bold;
+  padding-top: 1%;
+}
+
+#description {
+  text-align: justify;
+  font-weight: bold;
+}
+
+form {
+  position: relative;
+}
+
+#submit {
+  position: absolute;
+  top: 78%;
+  right: 0;
+}
